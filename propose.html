@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEY BABE</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Dancing Script", cursive;
+            user-select: none
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oleo+Script:wght@400;700&display=swap');
+
+
+        .container {
+            height: 100vh;
+            width: 100%;
+            border: 1px solid black;
+            background-color: palevioletred;
+            position: relative;
+        }
+        
+        .a { 
+
+            display: flex;
+            align-items: center;
+            position: absolute;
+            gap: 20px;
+            flex-direction: column;
+            font-family: serif;
+            padding: 10px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            height: 55vh;
+            width: 35vw;
+            border: 2px solid red;
+            font-size: 20px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0px 0px 40px rgb(123, 3, 89);
+        }
+
+        .b {
+            display: none;
+            align-items: center;
+            position: absolute;
+            gap: 20px;
+            flex-direction: column;
+            font-family: serif;
+            padding: 10px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%) rotate(-15deg);
+            height: 55vh;
+            width: 35vw;
+            border: 2px solid red;
+            font-size: 20px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0px 0px 40px rgb(123, 3, 89);
+
+        }
+
+        .y {
+            display: none;
+            align-items: center;
+            position: absolute;
+            gap: 20px;
+            flex-direction: column;
+            font-family: serif;
+            padding: 10px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            height: 55vh;
+            width: 35vw;
+            border: 2px solid red;
+            font-size: 20px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0px 0px 40px rgb(123, 3, 89);
+
+
+        }
+
+        .a img {
+            height: 30vh;
+            border-radius: 50%;
+            border: 2px solid black;
+            box-shadow: 0px 0px 20px rgb(0, 0, 0);
+        }
+
+        .a button {
+            font-size: 15px;
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        .but {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+
+        .but button {
+            font-size: 15px;
+            border-radius: 20px;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .but button:hover {
+            box-shadow: 0px 0px 10px black inset;
+        }
+
+        .y img{
+            position:absolute;
+            bottom: -9.5%;
+            gap: 10px;
+        }
+
+        .y h1{
+             font-family: "Island Moments", cursive;
+             margin-top: 30px;
+             width: 90%;
+             font-size: 27px;
+            color: palevioletred;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="a">
+                <h2>Hey cutie...❤</h2>
+                <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDk1cjR5OGswMXd4ZW56dDBzcHZzbG1qMm45aXlqZWh4aHp0a3M5YSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Ie4CIIvQS0bk3zwZlM/200.webp"
+                    alt="">
+                <button type="button" class="btnn">Start 💕</button>
+
+            </div>
+            <div class="b">
+                <h2>HEY DARLING❤</h2>
+                <H3>DO YOU LOVE ME.....👀</H3>
+                <img src="https://media.tenor.com/FP41H364CJcAAAAM/bearlove.gif" alt="">
+                <div class="but"><button class="yes">Yes 💕</button>
+                    <button type="button" class="no">NO 💔</button>
+                </div>
+            </div>
+            <div class="y">
+                <h2>yahhh!! You Clicked YES 🥳</h2>
+                <H3>I just want to tell you that</H3>
+                <h1>I LOVE YOU TOO BUGGU 😘😗</h1>
+                <img src="https://media.tenor.com/BnjDsieYltAAAAAj/cute-bear-kiss.gif" alt="">
+                </div>
+
+            </div>
+
+    </main>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="propose.js"></script>
+
+</html>
