@@ -27,8 +27,8 @@
             background-color: palevioletred;
             position: relative;
         }
-        
-        .a { 
+
+        .a {
 
             display: flex;
             align-items: center;
@@ -125,20 +125,46 @@
             box-shadow: 0px 0px 10px black inset;
         }
 
-        .y img{
-            position:absolute;
+        .y img {
+            position: absolute;
             bottom: -9.5%;
             gap: 10px;
         }
 
-        .y h1{
-             font-family: "Island Moments", cursive;
-             margin-top: 30px;
-             width: 90%;
-             font-size: 27px;
+        .y h1 {
+            font-family: "Island Moments", cursive;
+            margin-top: 30px;
+            width: 90%;
+            font-size: 27px;
             color: palevioletred;
         }
+
+        @media (min-width:320px) and (max-width: 480px) {
+
+            .a,
+            .b,
+            .y {
+                width: 80vw;
+                height: 60vh;
+            }
+
+            .a img,
+            .b img,
+            .y img {
+                height: 30vh;
+                width: auto;
+            }
+
+            .btnn {
+
+                position: absolute;
+                bottom: 10%;
+                height: 60px;
+                width: 100px;
+            }
+
         
+        }
     </style>
 </head>
 
@@ -165,13 +191,15 @@
                 <H3>I just want to tell you that</H3>
                 <h1>I LOVE YOU TOO BUGGU 😘😗</h1>
                 <img src="https://media.tenor.com/BnjDsieYltAAAAAj/cute-bear-kiss.gif" alt="">
-                </div>
-
             </div>
+
+        </div>
 
     </main>
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+    integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="propose.js"></script>
 
 </html>

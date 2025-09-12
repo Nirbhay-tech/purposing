@@ -17,7 +17,7 @@ document.querySelector(".yes").addEventListener("click",()=>{
 gsap.from(".y",{
     opacity:0,
     scale:0,
-    x:"-100vh",
+    y:"-100vh",
     ease:"bounce.out",
     borderRadius:"90%",
     duration:3,
